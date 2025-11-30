@@ -51,10 +51,11 @@ This project is designed to **demonstrate common social engineering and network 
 3. **Configure the Code**  
    - Open the provided `.ino` file in Arduino IDE
    - Edit the following in the code:
-     ```cpp
+   
+   ```cpp
         WiFi.softAP("SLT Fiber - Free", "");
- 
-    ```
+   ```
+   
    - Customize the captive portal HTML in the `handleRoot()` function or load from the included `template/` folder
 
 4. **Upload & Monitor**
