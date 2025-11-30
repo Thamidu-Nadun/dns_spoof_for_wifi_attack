@@ -1,6 +1,6 @@
 # Wi-Fi Credential Phishing Tool for ESP32/ESP8266
 
-> ![WARNING]
+> [!WARNING]
 > This project is strictly for **educational and authorized security testing purposes only**.  
 > Unauthorized interception, access, or manipulation of networks or user data is **illegal**, unethical, and may result in severe legal consequences.  
 > Always obtain explicit written permission before testing on any network or device.
@@ -9,7 +9,7 @@
 
 ## 📌 Overview
 
-This tool simulates a Wi-Fi phishing attack by creating a rogue access point that mimics a legitimate network. It uses **DNS spoofing** to redirect connected users to a fake captive portal (login page), where unsuspecting users may enter Wi-Fi credentials. The entered credentials are then captured and logged by the device.
+This tool is a Wi-Fi phishing attack by creating a rogue access point that mimics a legitimate network. It uses **DNS spoofing** to redirect connected users to a fake captive portal (login page), where unsuspecting users may enter Wi-Fi credentials. The entered credentials are then captured and logged by the device.
 
 This project is designed to **demonstrate common social engineering and network spoofing techniques** so developers, students, and security professionals can better understand and defend against such attacks.
 
