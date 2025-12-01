@@ -88,7 +88,6 @@ This project is designed to **demonstrate common social engineering and network 
 3. Open any web browser and attempt to visit a website (e.g., `http://example.com`)
 4. You’ll be automatically redirected to the **fake login page**
 5. If a user enters credentials, they are:
-   - Printed in the **Serial Monitor**
    - Accessible via `http://192.168.4.1/get_data` (while connected to the fake AP)
 
 ---
