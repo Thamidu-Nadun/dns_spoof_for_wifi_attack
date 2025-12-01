@@ -23,6 +23,10 @@ This project is designed to **demonstrate common social engineering and network 
 - **Logs submitted credentials** via serial output and a `/get_data` HTTP endpoint
 - Fully configurable SSID, HTML content, and behavior
 
+> [!NOTE]
+> This project currently does **not** support HTTPS interception due to certificate pinning and encryption complexities. 
+> For example, users attempting to access `https://` sites will not be redirected to the fake login page. 
+> But using embedded certificates and advanced techniques may be explored in future iterations.
 ---
 
 ## 🛠️ Requirements
