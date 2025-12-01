@@ -64,6 +64,13 @@ This project is designed to **demonstrate common social engineering and network 
    - Click **Upload**
    - Open **Serial Monitor** (`Ctrl+Shift+M`) at 115200 baud to view logs and captured credentials
 
+5. **Upload via command line (optional)**  
+   You can also use this command to flash the pre-compiled binary:
+   ```bash
+   esptool.exe --chip esp32 write_flash 0x0 ./dns_spoof_v1.bin
+   ```
+> [!INFO]
+> You can find pre-compiled binaries in the `releases/` section of this repository.
 ---
 
 ## ▶️ Usage
