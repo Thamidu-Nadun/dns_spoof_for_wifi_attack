@@ -49,8 +49,7 @@ This project is designed to **demonstrate common social engineering and network 
    - Go to `File > Preferences`
    - Add the appropriate board manager URL:
      - ESP32: `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
-     - ESP8266: `http://arduino.esp8266.com/stable/package_esp8266com_index.json`
-   - Open `Tools > Board > Boards Manager`, then install **"ESP32 by Espressif Systems"** or **"ESP8266 by ESP8266 Community"**
+   - Open `Tools > Board > Boards Manager`, then install **"ESP32 by Espressif Systems"**.
 
 3. **Configure the Code**  
    - Open the provided `.ino` file in Arduino IDE
@@ -59,6 +58,10 @@ This project is designed to **demonstrate common social engineering and network 
    ```cpp
         WiFi.softAP("SLT Fiber - Free", "");
    ```
+   and,
+   ```cpp
+        String _html = R"rawliteral(<!----Goes Here-->)rawliteral";
+   ```
    
    - Customize the captive portal HTML in the `handleRoot()` function or load from the included `template/` folder
 
@@ -66,7 +69,7 @@ This project is designed to **demonstrate common social engineering and network 
    - Connect your ESP board via USB
    - Select the correct board and port under `Tools`
    - Click **Upload**
-   - Open **Serial Monitor** (`Ctrl+Shift+M`) at 115200 baud to view logs and captured credentials
+   - Open **Serial Monitor** (`Ctrl+Shift+M`) at **115200** baud to view logs and captured credentials
 
 5. **Upload via command line (optional)**  
    You can also use this command to flash the pre-compiled binary:
@@ -75,6 +78,7 @@ This project is designed to **demonstrate common social engineering and network 
    ```
 > [!NOTE]
 > You can find pre-compiled binaries in the [release](./releases) section of this repository.
+
 ---
 
 ## ▶️ Usage
