@@ -69,8 +69,8 @@ This project is designed to **demonstrate common social engineering and network 
    ```bash
    esptool.exe --chip esp32 write_flash 0x0 ./dns_spoof_v1.bin
    ```
-> [!INFO]
-> You can find pre-compiled binaries in the `releases/` section of this repository.
+> [!NOTE]
+> You can find pre-compiled binaries in the [release](./release) section of this repository.
 ---
 
 ## ▶️ Usage
