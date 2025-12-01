@@ -32,10 +32,10 @@ This project is designed to **demonstrate common social engineering and network 
 ## 🛠️ Requirements
 
 - **Hardware**:
-  - ESP32 **or** ESP8266 development board
+  - ESP32 development board
 - **Software**:
   - [Arduino IDE](https://www.arduino.cc/en/software) (v2.0+ recommended)
-  - ESP32/ESP8266 board support (installed via Arduino IDE Boards Manager)
+  - ESP32 board support (installed via Arduino IDE Boards Manager)
 
 ---
 
