@@ -1,4 +1,4 @@
-# Wi-Fi Credential Phishing Tool for ESP32/ESP8266
+# Wi-Fi Credential Phishing Tool for ESP32
 
 > [!WARNING]
 > This project is strictly for **educational and authorized security testing purposes only**.  
