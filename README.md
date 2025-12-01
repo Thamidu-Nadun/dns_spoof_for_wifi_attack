@@ -17,7 +17,7 @@ This project is designed to **demonstrate common social engineering and network 
 
 ## ✨ Features
 
-- Creates a **fake Wi-Fi access point** using ESP32/ESP8266
+- Creates a **fake Wi-Fi access point** using ESP32
 - Performs **local DNS spoofing** to hijack web requests
 - Serves a **customizable fake login (captive portal) page**
 - **Logs submitted credentials** via serial output and a `/get_data` HTTP endpoint
