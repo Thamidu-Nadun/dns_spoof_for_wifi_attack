@@ -3,19 +3,19 @@
 ## Instruction
 
 > [!TIP]
-> If you have not deal with micro-controller please follow instruction in (../README.md)[README.MD].
+> If you have not dealt with a microcontroller, please follow the instructions in [README](../README.md).
 
-you should have esptool to do this.
+You should have esptool to perform this task.
 
 ```bash
 esptool.exe --chip esp32 write_flash 0x0 ./dns_spoof_v1.bin
 ```
 
 > [!TIP]
-> You can use other flags if you want such as `--port`, `--before default_reset` etc.
+> You can use other flags if you want, such as `--port`, `--before default_reset`, etc.
 
-> [!INFO]
+> [!NOTE]
 > This released binary is a merged one of bootloader, partition-table, app and firmware binaries.
-> And by default it compiled with (dialog_template)[../template/dialog.html].
+> And by default it compiled with [Dialog_template](../template/dialog.html).
 
 ---
